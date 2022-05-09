@@ -1,0 +1,67 @@
+.login-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    flex-direction: column;
+}
+
+.submit-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10%;
+}
+
+
+#text, #email {
+    padding-bottom: 10px;
+}
+.btn-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #007bff;
+    border-radius: 4px;
+    border: none;
+    margin-top: 10px;
+}
+
+
+.btn-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.textinput {
+    margin-bottom: 30px;
+    padding-bottom: 10px 20px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+.textinput {
+    border-bottom: 0.5px solid blue;
+}
+
+.textinput:focus-visible {
+    color: black;
+}
+
+.textinput ::after,
+::before {
+    border: none;
+}
